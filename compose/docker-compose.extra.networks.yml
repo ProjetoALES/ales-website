@@ -1,0 +1,19 @@
+version: "3.7"
+services:
+  grafana:
+    networks:
+      - default
+      - proxy
+  portainer:
+    networks:
+      - default
+      - proxy
+  redis-exporter:
+    networks:
+      - default
+  exporter:
+    networks:
+      - default
+  prometheus:
+    networks:
+      - default

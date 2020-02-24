@@ -1,0 +1,21 @@
+{
+  "python.formatting.provider": "black",
+  "eslint.workingDirectories": ["./frontend"],
+  "[javascript]": {
+    "editor.tabSize": 2
+  },
+  "[vue]": {
+    "editor.tabSize": 2
+  },
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true,
+  "python.autoComplete.extraPaths": ["./backend"],
+  "python.pythonPath": "/Users/maronato/.pyenv/versions/ales/bin/python",
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.formatOnSave": true,
+  "autoDocstring.guessTypes": true,
+  "autoDocstring.docstringFormat": "google",
+  "prettier.configPath": "./frontend/.prettierrc"
+}

@@ -1,0 +1,39 @@
+# Base
+Django==3.0.3
+uvicorn==0.11.2
+gunicorn==20.0.4
+psycopg2-binary==2.8.4
+whitenoise==5.0.1
+cryptography==2.7
+python-magic==0.4.15
+requests==2.22.0
+django-storages==1.9.1
+boto3==1.12.1
+
+# Lint
+pylint==2.3.1
+flake8==3.7.8
+
+# Debug
+Werkzeug==0.16.0
+django-extensions==2.2.6
+ptipython==1.0.1
+ptvsd==4.3.2
+ptpython<3.0.0
+
+# Worker
+celery==4.4.0
+django-redis==4.11.0
+redis==3.3.11
+django-celery-email==3.0.0
+
+# REST
+rest-condition==1.0.3
+django-cors-headers==3.2.1
+djangorestframework==3.11.0
+djangorestframework-simplejwt==4.4.0
+djangorestframework-camel-case==1.1.1
+drf-nested-routers==0.91
+
+# Monitoring
+django-prometheus==2.0.0
