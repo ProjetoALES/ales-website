@@ -23,11 +23,9 @@ docker-compose --version
 echo " Done!"
 
 # Get env vars
-echo "What is the Traefik username?"
-read TRAEFIK_USER
-echo "What is the Traefik password?"
+echo "What is the Traefik password (for the user 'admin')?"
 read TRAEFIK_PASS
-htpasswd -nb "$TRAEFIK_USER" "$TRAEFIK_PASS" > traefik_users
+htpasswd -nb admin "$TRAEFIK_PASS" > traefik_users
 
 if [ "$USE_EXTRA" = true ]; then
     echo "What is the Grafana password (for the user 'admin')?"
