@@ -1,17 +1,17 @@
-version: "3.7"
+version: '3.7'
 services:
   redis-exporter:
     restart: always
     command:
-      - "--redis.addr=redis://redis:6379"
+      - '--redis.addr=redis://redis:6379'
   prometheus:
     restart: always
     build:
-      context: ../prometheus
+      context: ../monitoring/prometheus
   grafana:
     restart: always
     build:
-      context: ../grafana
+      context: ../monitoring/grafana
   exporter:
     restart: always
   portainer:
