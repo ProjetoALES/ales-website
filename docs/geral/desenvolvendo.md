@@ -64,11 +64,11 @@ Espere alguns minutos enquanto Docker faz o download e inicia todos os seus cont
 
 Quando seus containers estiverem prontos e rodando, você vai poder acessar os serviços por 3 urls:
 
-| URL                                                      | Serviço             | Descrição                          |
-| -------------------------------------------------------- | ------------------- | ---------------------------------- |
-| [http://localhost](http://localhost)                     | Frontend            | Página inicial do site             |
-| [http://api.localhost/admin](http://api.localhost/admin) | Backend             | Página de administração do backend |
-| [http://traefik.localhost](http://traefik.localhost)     | [Traefik](#traefik) | Dashboard do traefik               |
+| URL                                                      | Serviço  | Descrição                          |
+| -------------------------------------------------------- | -------- | ---------------------------------- |
+| [http://localhost](http://localhost)                     | Frontend | Página inicial do site             |
+| [http://api.localhost/admin](http://api.localhost/admin) | Backend  | Página de administração do backend |
+| [http://traefik.localhost](http://traefik.localhost)     | Traefik  | Dashboard do traefik               |
 
 Agora você já deve conseguir editar os arquivos do frontend e do backend e ver eles serem atualizados em tempo real na sua frente! Não precisa ficar derrubando e subindo o Docker sempre que você fizer uma alteração.
 

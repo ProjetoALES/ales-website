@@ -11,6 +11,7 @@ Antes de começar a desenvolver, é importante que você tenha um conhecimento b
 - [Como o site funciona](como_funciona.md)
 - [Conceitos e tecnologias](conceitos.md)
 - [Conhecendo as variáveis de ambiente](variaveis_de_ambiente.md)
+- [Perguntas frequentes](faq.md)
 
 # Sobre as linguagens usadas
 

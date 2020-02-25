@@ -38,7 +38,7 @@ Vou separar em instalações para o backend e para o frontend:
 
 #### Frontend
 
-O frontend é em javascript, então você precisará de [Nodejs](#nodejs) 13.6.
+O frontend é em javascript, então você precisará de [Nodejs](conceitos.md#nodejs) 13.6.
 
 A melhor forma de instalar e gerenciar versões de node é com o Node Version Manager, ou [nvm](https://github.com/nvm-sh/nvm). Depois de instalar ele, rode:
 
@@ -54,7 +54,7 @@ nvm use
 
 Para instalar e usar a versão de node do repositório.
 
-Nós usamos o [Yarn](#yarn) para gerenciar dependências do frontend. Comece [instalando-o](https://classic.yarnpkg.com/en/docs/install/).
+Nós usamos o [Yarn](conceitos.md#yarn) para gerenciar dependências do frontend. Comece [instalando-o](https://classic.yarnpkg.com/en/docs/install/).
 
 Instalado, navegue para a pasta do frontend e instale as dependências:
 
@@ -70,7 +70,7 @@ Só isso. Agora vc já deve ter todas as features completas para desenvolver o f
 
 #### Backend
 
-O backend roda em [Python](#python) 3.8, mas eu recomendo que você use um gerenciador de ambientes para Python, o [pyenv](https://github.com/pyenv/pyenv) e o [pyenv-virtualenv](pyenv-virtualenv)
+O backend roda em Python 3.8, mas eu recomendo que você use um gerenciador de ambientes para Python, o [pyenv](https://github.com/pyenv/pyenv) e o [pyenv-virtualenv](pyenv-virtualenv)
 
 A instalação deles dois pode ser complicada, então siga o tutorial do [pyenv](https://github.com/pyenv/pyenv#installation) e do [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv#installation). Caso tenha dúvidas, fale com a equipe de tech no slack.
 

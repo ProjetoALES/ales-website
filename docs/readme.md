@@ -2,7 +2,7 @@
 
 Bem-vindo(a) à documentação do site do ALES! Aqui você vai encontrar todo tipo de informação, desde como subir o site localmente até definições de todos os termos técnicos usados.
 
-Separamos a documentação em alguns arquivos e pastas pra facilitar sua navegação, mas sempre que introduzirmos um conceito novo ou mencinarmos uma tecnologia diferente, colocaremos links para outros arquivos da documentação com explicações mais aprofundadas.
+Separamos a documentação em alguns arquivos e pastas pra facilitar sua navegação, mas sempre que introduzirmos um conceito novo ou mencionarmos uma tecnologia diferente, colocaremos links para outros arquivos da documentação com explicações mais aprofundadas.
 
 # Tabela de conteúdos
 - Geral
@@ -13,6 +13,7 @@ Separamos a documentação em alguns arquivos e pastas pra facilitar sua navega�
   - [Como o site funciona](geral/como_funciona.md)
   - [Conceitos e tecnologias](geral/conceitos.md)
   - [Conhecendo as variáveis de ambiente](geral/variaveis_de_ambiente.md)
+  - [Perguntas frequentes](geral/faq.md)
 - Detalhes sobre cada pasta
   - [`backend/`](backend/readme.md)
   - [`frontend/`](frontend/readme.md)
