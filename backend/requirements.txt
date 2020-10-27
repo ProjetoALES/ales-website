@@ -4,7 +4,7 @@ uvicorn==0.11.2
 gunicorn==20.0.4
 psycopg2-binary==2.8.4
 whitenoise==5.0.1
-cryptography==2.7
+cryptography==3.2
 python-magic==0.4.15
 requests==2.22.0
 django-storages==1.9.1
