@@ -30,7 +30,7 @@ django-celery-email==3.0.0
 # REST
 rest-condition==1.0.3
 django-cors-headers==3.2.1
-djangorestframework==3.11.0
+djangorestframework==3.11.2
 djangorestframework-simplejwt==4.4.0
 djangorestframework-camel-case==1.1.1
 drf-nested-routers==0.91
